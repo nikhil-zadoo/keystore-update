@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python
 #Author - nikhil.zadoo@gmail.com
 
 from dateutil.parser import parse
