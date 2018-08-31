@@ -313,6 +313,7 @@ def update_keystore_cert_add(alias, dest, dest_passwd, source):
         print(bcolors.FAIL + "Failed to add the new alias" + bcolors.ENDC)
         print(bcolors.FAIL + "Use the command below to manually delete the alias" + bcolors.ENDC)
         print(bcolors.BOLD + "keytool  -import -alias <ALIAS> -keystore <KEYSTORE_PATH> -storepass <PASSWORD> -trustcacert <SRC_PATH>" + bcolors.ENDC)
+        sys.exit(2)
     print(bcolors.OKGREEN + "New Alias %s added successfully" % alias + bcolors.ENDC)
 
 
