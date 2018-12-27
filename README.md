@@ -1,7 +1,8 @@
 # keystore-update
-to add individual crt/p12 files to keystore
-just execute without any commands to get started. script is interactive.
-also the command line options can be used to run in non interactive mode.
+To add individual crt/p12 files to keystore
+Just execute without any commands to get started. Script is interactive.
+Also the command line options can be used to run in non interactive mode.
+```
 python keystore_update.py -h
 usage: keystore_update.py [-h] [-s SOURCE] [-d DEST]
                           [-o {update,delete,sep_cert_key_file_update}]
@@ -35,4 +36,4 @@ optional arguments:
   --sep_key_file SEP_KEY_FILE
                         Should be used with operation type
                         sep_cert_key_file_update to specify the key file
-
+```
